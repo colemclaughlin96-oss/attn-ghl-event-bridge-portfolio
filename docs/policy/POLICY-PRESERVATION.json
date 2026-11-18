@@ -1,0 +1,10 @@
+{
+  "attachment_sha256": "456ced0b648bd57f816b7f2b01ecd08388ddd461cfec338dcf86e8e6088d1907",
+  "attachment_bytes": 14330,
+  "owner_policy_sha256": "27f50461e475f63ea7afc63571e034cbf40cfed446d85bd534f7075dd8e2e50a",
+  "owner_policy_bytes": 11703,
+  "policy_date": "2026-10-20",
+  "preservation": "Integrity manifest for sanitized portfolio policy fixtures.",
+  "live_customer_sending": false,
+  "native_task_updated": false
+}

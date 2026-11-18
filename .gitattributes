@@ -1,0 +1,4 @@
+* text=auto eol=lf
+docs/policy/** -text
+reports/diagnostics/** -whitespace
+

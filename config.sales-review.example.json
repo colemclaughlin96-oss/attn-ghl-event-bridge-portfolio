@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "enrollments": [],
+  "manualIdentity": null,
+  "handoffRoute": null,
+  "note": "Documentation only. Server does not read this file. Owner-approved enrollment must pin contact/conversation, baseline and cutoff, timezone provenance, and reviewed workflow profile. No source change should wire this until adapter and rollout review passes."
+}
+

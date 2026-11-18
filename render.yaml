@@ -1,0 +1,27 @@
+# Deployment template only. Applying this creates a PAID service. Obtain Cole's approval first.
+services:
+  - type: web
+    name: attn-incoming-event-bridge
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /healthz
+    autoDeployTrigger: off
+    disk:
+      name: attn-event-state
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: VAULT_KEY
+        sync: false
+      - key: PROXY_TOKEN
+        sync: false
+      - key: WORKFLOW_TOKEN
+        sync: false
+      - key: SITE_OWNER_SUBJECT
+        sync: false
+      - key: TEST_CONTACT_ID
+        sync: false
+      - key: LISTENER_ENABLED
+        value: 'false'
+

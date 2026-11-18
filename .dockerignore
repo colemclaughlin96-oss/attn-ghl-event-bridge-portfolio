@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!package.json
+!src
+!src/**
+!docs
+!docs/INBOUND-RELIABILITY-PROMPT.txt
+!docs/SERVER-BOT-PROMPT.txt
+
